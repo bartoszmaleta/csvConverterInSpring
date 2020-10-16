@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.converter.SimpleCsvConverter;
 import com.company.model.OutputFormat;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
