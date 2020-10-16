@@ -1,6 +1,6 @@
 package com.company.factory;
 
-import com.company.OutputFormat;
+import com.company.model.OutputFormat;
 import com.company.view.OutputFormatter;
 
 public class OutputFormatterFactory {

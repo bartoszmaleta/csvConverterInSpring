@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.converter.SimpleCsvConverter;
+import com.company.model.OutputFormat;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -32,6 +33,5 @@ public class ConverterApplication {
             }
             simpleCsvConverter.convert(file, outputFormat);
         }
-
     }
 }

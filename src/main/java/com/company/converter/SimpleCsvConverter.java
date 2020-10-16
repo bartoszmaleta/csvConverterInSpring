@@ -1,7 +1,7 @@
 package com.company.converter;
 
 
-import com.company.OutputFormat;
+import com.company.model.OutputFormat;
 import com.company.dao.FileReader;
 import com.company.factory.OutputFormatterFactory;
 import com.company.view.OutputFormatter;
