@@ -2,7 +2,9 @@ package com.company.factory;
 
 import com.company.model.OutputFormat;
 import com.company.view.OutputFormatter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OutputFormatterFactory {
     public OutputFormatter createByFormat(OutputFormat outputFormat) {
         switch (outputFormat) {

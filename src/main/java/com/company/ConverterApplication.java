@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.converter.SimpleCsvConverter;
+import com.company.service.SimpleCsvConverter;
 import com.company.model.OutputFormat;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

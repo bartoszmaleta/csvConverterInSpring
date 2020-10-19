@@ -1,6 +1,7 @@
 package com.company.dao;
 
 import com.opencsv.CSVReader;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -11,6 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class FileReader {
     public List<Map<String, String>> readData(Path file) {
         List<Map<String, String>> csvData = new ArrayList<>();
